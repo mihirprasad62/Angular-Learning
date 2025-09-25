@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('Angular_Learning');
-  name="Mihir Prasad Bhuyan"
+  name="Mihir Prasad Bhuyan";
+  x=10;
+  y=20;
+  user1="Sameer";
+  user2="Bapi"
 }

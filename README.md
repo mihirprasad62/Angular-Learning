@@ -17,3 +17,13 @@ Interview Questions:
 Can we never declare a variable inside class?
 <br>
 Ans:Yes We can. We can declare a variable in side a class by using function.With in function in class we can declare a variable. not directly in class.
+
+# Interpolation 
+
+Display data from TS to HTML file.
+<br>
+Execute JS code in HTML file
+<br>
+syntax={{}}
+<br>
+limitation:can't declare variable,can't use increment or decrement operator,can't use loop
