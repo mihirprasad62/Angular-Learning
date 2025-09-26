@@ -17,4 +17,13 @@ export class App {
   y=20;
   user1="Sameer";
   user2="Bapi"
+
+  handleClickEvent(){
+   console.log('Function Called.')
+   this.handleOtherFunction()
+  }
+
+  handleOtherFunction(){
+    console.log("other function called.")
+  }
 }
