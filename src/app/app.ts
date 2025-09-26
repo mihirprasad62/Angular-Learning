@@ -4,10 +4,11 @@ import { Login } from './login/login';
 import { SignUp } from './sign-up/sign-up';
 import { Profile } from './profile/profile';
 import { ImpEvent } from './imp-event/imp-event';
+import { GetAndSetInputFieldValue } from './get-and-set-input-field-value/get-and-set-input-field-value';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent],
+  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
