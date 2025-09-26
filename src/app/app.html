@@ -21,5 +21,16 @@
 <!-- <h1>Function call on Button Click</h1>
 <button (click)=" handleClickEvent()">Click Me</button> -->
 
-<h1>Define Datatype</h1>
-<button (click)="sum(10,20)">Sum</button>
+<!-- <h1>Define Datatype</h1>
+<button (click)="sum(10,20)">Sum</button> -->
+
+<h1>Counter App</h1>
+
+<div style="text-align: center;">
+    <h2 class="count">{{count}}</h2>
+    <div>
+        <button (click)="handleDecrement()" class="bg-red">Decrement</button>
+        <button (click)="handleReset()" class="bg-black">Reset</button>
+        <button (click)="handleIncrement()" class="bg-green">Increment</button>
+    </div>
+</div>
