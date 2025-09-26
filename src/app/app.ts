@@ -18,6 +18,10 @@ export class App {
   user1="Sameer";
   user2="Bapi"
 
+  userName:string="Mihir"
+  data:string|number='Hello'
+  other:any=10
+
   handleClickEvent(){
    console.log('Function Called.')
    this.handleOtherFunction()
@@ -26,4 +30,21 @@ export class App {
   handleOtherFunction(){
     console.log("other function called.")
   }
+  updateUsername(){
+    this.userName='Sameer'
+    this.data=30
+    this.other=true
+  }
+
+  updateVar(){
+    let x:number=30;
+
+    console.log(x)
+    this.sum(50,50)
+  }
+
+  sum(a:number,b:number){
+    console.log(a+b)
+  }
+
 }
