@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Login } from './login/login';
 import { SignUp } from './sign-up/sign-up';
 import { Profile } from './profile/profile';
+import { ImpEvent } from './imp-event/imp-event';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, SignUp, Profile],
+  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
@@ -47,6 +48,7 @@ export class App {
   //   console.log(a+b)
   // }
 
+
   count: number = 0;
 
   handleIncrement() {
@@ -60,4 +62,6 @@ export class App {
   handleReset() {
     this.count = 0;
   }
+
+ 
 }
