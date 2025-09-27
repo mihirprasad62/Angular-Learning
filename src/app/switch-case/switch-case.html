@@ -1,0 +1,25 @@
+<h1>Switch Case in Angular</h1>
+<button (click)="handleColor('red')">Red</button>
+<button (click)="handleColor('green')">Green</button>
+<button (click)="handleColor('blue')">Blue</button>
+<button (click)="handleColor('yellow')">Yellow</button>
+<button (click)="handleColor('other')">other</button>
+<input type="text" placeholder="enter color" (input)="changeColor($event)">
+
+@switch(color){
+    @case ('red') {
+        <div style="width: 200px; height: 200px; background-color: red"></div>
+    }
+    @case ('green') {
+        <div style="width: 200px; height: 200px; background-color: green"></div>
+    }
+    @case ('blue') {
+        <div style="width: 200px; height: 200px; background-color: blue"></div>
+    }
+    @case ('yellow') {
+        <div style="width: 200px; height: 200px; background-color: yellow"></div>
+    }
+    @default {
+         <div style="width: 200px; height: 200px; background-color: black"></div>
+    }
+}

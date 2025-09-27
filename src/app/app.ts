@@ -8,10 +8,11 @@ import { GetAndSetInputFieldValue } from './get-and-set-input-field-value/get-an
 import { DiffTypesStyles } from './diff-types-styles/diff-types-styles';
 import { IfElse } from './if-else/if-else';
 import { ElseIf } from './else-if/else-if';
+import { SwitchCase } from './switch-case/switch-case';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue,DiffTypesStyles,IfElse,ElseIf],
+  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue,DiffTypesStyles,IfElse,ElseIf,SwitchCase],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
