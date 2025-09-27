@@ -33,3 +33,5 @@ limitation:can't declare variable,can't use increment or decrement operator,can'
 Angular CLI (Command Line Interface) is a tool that helps developers to create,build,test and deploy Angular applications.
 <br>
 ng generate component login,ng generate pipe testPipe,ng help
+
+# Style Option

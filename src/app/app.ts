@@ -5,10 +5,12 @@ import { SignUp } from './sign-up/sign-up';
 import { Profile } from './profile/profile';
 import { ImpEvent } from './imp-event/imp-event';
 import { GetAndSetInputFieldValue } from './get-and-set-input-field-value/get-and-set-input-field-value';
+import { DiffTypesStyles } from './diff-types-styles/diff-types-styles';
+import { IfElse } from './if-else/if-else';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue],
+  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue,DiffTypesStyles,IfElse],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
