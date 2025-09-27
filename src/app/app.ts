@@ -7,10 +7,11 @@ import { ImpEvent } from './imp-event/imp-event';
 import { GetAndSetInputFieldValue } from './get-and-set-input-field-value/get-and-set-input-field-value';
 import { DiffTypesStyles } from './diff-types-styles/diff-types-styles';
 import { IfElse } from './if-else/if-else';
+import { ElseIf } from './else-if/else-if';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue,DiffTypesStyles,IfElse],
+  imports: [RouterOutlet, Login, SignUp, Profile,ImpEvent,GetAndSetInputFieldValue,DiffTypesStyles,IfElse,ElseIf],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
