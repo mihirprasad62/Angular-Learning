@@ -1,0 +1,20 @@
+<h1>Basic of Signals</h1>
+
+<h2>{{count()}}</h2>
+<h3>{{countProp}}</h3>
+
+<!-- <button (click)="count.set(100)">Increase Signal</button> -->
+<!-- <button (click)="countProp++">Increase property</button> -->
+
+<button (click)="updateValue()">Increase Value</button>
+
+<hr>
+
+<h1>{{value()}}</h1>
+
+<!-- <button (click)="changeValue('dec')">Decrement</button>
+<button (click)="changeValue('inc')">Increment</button> -->
+
+
+<button (click)="value.set(value()-1)">Decrement</button>
+<button (click)="value.set(value()+1)">Increment</button>
